@@ -1,117 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
-  <title>ajramirez</title>
-</head>
-<body>
-  <header>
-    <div>
-      <ul class="nav-icons">
-        <li><a href="#">ajramirez.dev</a></li>
-        <li><a href=""><img src="images/linkedin.png" alt="LinkedIn logo"></a></li>
-        <li><a href=""><img src="images/github.png" alt="GitHub logo"></a></li>
-        <li><a href=""><img src="images/gitlab.png" alt="GitLab logo"></a></li>
-      </ul>
-    </div>
-    <nav>
-      <ul class="nav">
-        <li><a href="#about-me">about</a></li>
-        <li><a href="#project--1">projects</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="introduction" class="width-spacing">
-      <div class="hero">
-        <div class="introduction-container">
-          <div class="header">
-            <div>Hi there!</div>
-            <div>I'm AJ Ramirez</div>
-          </div>
-          <p>A Software Developer with a serious passion for new technologies from the Philippines.</p>
-          <div class="hero-buttons">
-            <a class="white-btn" href="assets/Resume (1).pdf" download>Resume<img src="images/download.png" alt="download icon"></a>
-            <a class="email-link" href="mailto:ajlimramirez@gmail.com">Let's talk!</a>
-          </div>
-          <div class="tech">
-            <span>Tech Stack</span>
-            <span>|</span>
-            <img src="images/html.png" alt="html logo">
-            <img src="images/css.png" alt="CSS logo">
-            <img src="images/javascript.png" alt="Javascript logo">
-          </div>
-        </div>
-      <div class="image-container introduction-img">
-        <img class="hero-img" src="images/image.png" alt="digital art of a woman">
-      </div>
-    </div>
-    </section>
-    <section id="about-me" class="width-spacing height-padding">
-      <div class="header"><span>*about me</span></div>
-      <div class="text-container">
-        <p>As a Software Developer, I am passionate about creating innovative solutions to real-world problems. With a strong foundation in programming languages, I thrive in collaborative environments where I can work with others to build dynamic and efficient software. I am constantly learning and staying up-to-date with the latest technologies to ensure that my work is cutting-edge and effective. I take pride in my ability to translate complex concepts into user-friendly applications that can make a meaningful impact in people's lives.</p>
-      </div>
-    </section>
-    <section id="project--1" class="width-spacing height-padding">
-      <div class="project-container reverse">
-        <div class="project-details">
-          <div class="project-number">01</div>
-          <div>
-            <div class="header">Project Name</div>
-            <div class="tech right">
-              <img src="images/html.png" alt="HTML logo">
-              <img src="images/css.png" alt="CSS logo">
-            </div>
-          </div>
-          <div class="project-description right"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus temporibus eaque eos atque enim modi unde doloremque qui amet, facilis non impedit.</p></div>
-          <div class="hero-buttons right project-buttons">
-            <a class="black-btn" href="">Live Demo<img src="images/external-link.png" alt="extarnal link icon"></a>
-            <a class="white-btn" href="">Code<img src="images/github.png" alt="github logo"></a>
-          </div>
-        </div>
-        <div class="image-container">
-          <img class="project-image" src="images/laptop.svg" alt="laptop icon">
-        </div>
-      </div>
-    </section>
-    <section id="project--2" class="width-spacing height-padding">
-      <div class="project-container">
-        <div class="project-details">
-          <div class="project-number">02</div>
-          <div>
-            <div class="header">Project Name</div>
-            <div class="tech">
-              <img src="images/html.png" alt="HTML logo">
-              <img src="images/css.png" alt="CSS logo">
-              <img src="images/javascript.png" alt="Javascript logo">
-            </div>
-          </div>
-          <div class="project-description"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus temporibus eaque eos atque enim modi unde doloremque qui amet, facilis non impedit.</p></div>
-          <div class="hero-buttons project-buttons">
-            <a class="black-btn" href="">Live Demo<img src="images/external-link.png" alt="external link icon"></a>
-            <a class="white-btn" href="">Code<img src="images/github.png" alt="github logo"></a>
-          </div>
-        </div>
-        <div class="image-container">
-          <img class="project-image project-image--2" src="images/smartphone.svg" alt="smartphone icon">
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div>© 2023 ajramirez.dev</div>
-    <ul class="nav-icons">
-        <li><a href=""><img src="images/linkedin.png" alt="LinkedIn logo"></a></li>
-        <li><a href=""><img src="images/github.png" alt="GitHub logo"></a></li>
-        <li><a href=""><img src="images/gitlab.png" alt="GitLab logo"></a></li>
-      </ul>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ajramirez</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
