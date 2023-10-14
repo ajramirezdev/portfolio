@@ -11,9 +11,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="text-neutral-500 relative">
-      <div className="flex justify-between p-4 px-6 items-center">
-        <div className="flex items-center text-xl gap-3">
+    <nav className="text-neutral-500 relative max-w-7xl mx-auto">
+      <div className="flex justify-between p-6 md:px-10 lg:py-10 items-center">
+        <div className="flex items-center text-xl lg:text-2xl gap-3">
           <div className="font-bold cursor-pointer hover:text-neutral-400 transition ease-out duration-500">
             ajramirez.dev
           </div>
@@ -51,7 +51,7 @@ const NavBar = () => {
             <GiHamburgerMenu onClick={dropMenu} size={20} />
           </button>
         )}
-        <div className="hidden sm:flex gap-3 font-medium">
+        <div className="hidden sm:flex gap-3 font-medium text-lg lg:text-xl">
           <a
             className="hover:text-neutral-400 transition ease-out duration-500"
             href="#about"

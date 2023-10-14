@@ -19,7 +19,7 @@ const Form = () => {
       <form className="form relative mx-auto" method="POST">
         <div>
           <input
-            className="form-input block px-4 py-2 outline-none text-base text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
+            className="form-input block px-4 py-2 outline-none text-base md:text-lg lg:text-xl text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
             onChange={saveInputs}
             type="text"
             id="fullName"
@@ -28,7 +28,7 @@ const Form = () => {
             required
           />
           <label
-            className="form-label block text-base ml-4 mt-2 text-neutral-800"
+            className="form-label block text-base md:text-lg lg:text-xl ml-4 mt-2 text-neutral-800"
             htmlFor="fullName"
           >
             Full Name
@@ -36,7 +36,7 @@ const Form = () => {
         </div>
         <div>
           <input
-            className="form-input block px-4 py-2 outline-none text-base text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
+            className="form-input block px-4 py-2 outline-none text-base md:text-lg lg:text-xl text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
             onChange={saveInputs}
             type="email"
             id="email"
@@ -45,7 +45,7 @@ const Form = () => {
             required
           />
           <label
-            className="form-label block text-base ml-4 mt-2 text-neutral-800"
+            className="form-label block text-base md:text-lg lg:text-xl ml-4 mt-2 text-neutral-800"
             htmlFor="email"
           >
             Email
@@ -53,7 +53,7 @@ const Form = () => {
         </div>
         <div>
           <input
-            className="form-input block px-4 py-2 outline-none text-base text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
+            className="form-input block px-4 py-2 outline-none text-base md:text-lg lg:text-xl text-neutral-800 mx-auto bg-transparent border-b-2 border-solid border-neutral-600 w-full"
             onChange={saveInputs}
             type="text"
             id="message"
@@ -62,14 +62,14 @@ const Form = () => {
             required
           />
           <label
-            className="form-label block text-base ml-4 mt-2 text-neutral-800"
+            className="form-label block text-base md:text-lg lg:text-xl ml-4 mt-2 text-neutral-800"
             htmlFor="message"
           >
             Message
           </label>
         </div>
         <input
-          className="border-2 text-sm px-3 py-0.5 rounded-sm border-neutral-800 float-right cursor-pointer"
+          className="border-2 text-sm md:text-base xl:text-lg px-3 py-0.5 rounded-sm border-neutral-800 float-right cursor-pointer hover:text-neutral-500 hover:border-neutral-400 transition ease-out duration-500"
           type="submit"
           value="send"
         />
