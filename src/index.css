@@ -244,9 +244,13 @@ div.dark-shadow {
 
 input::placeholder {
   color: #262626;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
-input::-ms-input-placeholder { /* Edge 12 -18 */
+input::-ms-input-placeholder { 
   color: #262626;
+}
+
+svg.animate-spin {
+  width: 26px;
 }
