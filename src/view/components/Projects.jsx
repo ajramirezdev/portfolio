@@ -72,17 +72,13 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600">
+                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600  line-clamp-3 sm:line-clamp-none">
                   Ramble is a webiste created to meet new people and connect you
-                  with your friends.
-                  <span className="hidden sm:inline">
-                    {" "}
-                    It empowers you to establish chatrooms for your groups or
-                    exchange private messages. To enable real-time chatting, we
-                    harnessed the capabilities of Socket.io, and we incorporated
-                    Firebase Storage, allowing users to effortlessly upload and
-                    display their profile pictures.
-                  </span>
+                  with your friends. It empowers you to establish chatrooms for
+                  your groups or exchange private messages. To enable real-time
+                  chatting, we harnessed the capabilities of Socket.io, and we
+                  incorporated Firebase Storage, allowing users to effortlessly
+                  upload and display their profile pictures.
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
@@ -141,15 +137,13 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600">
+                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600  line-clamp-3 sm:line-clamp-none">
                   Using the data I fetched from OpenDota API, I made a webiste
                   that operates like a search engine for Dota 2 tournaments.
-                  <span className="hidden sm:inline">
-                    When users pick a specific tournament, they are directed to
-                    a page with more details, including the teams involved and
-                    recent match information. Users can also log in and bookmark
-                    their preferred tournaments.
-                  </span>
+                  When users pick a specific tournament, they are directed to a
+                  page with more details, including the teams involved and
+                  recent match information. Users can also log in and bookmark
+                  their preferred tournaments.
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
@@ -203,15 +197,13 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600">
+                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600  line-clamp-3 sm:line-clamp-none">
                   The concept for this JavaScript game came from a playful twist
                   on the words "Pokemon" and "Talpakan," which I found funny.
-                  <span className="hidden sm:inline">
-                    This led me to create a turn-based game, reminiscent of the
-                    Pokemon series, where players engage in battles not with
-                    Pokémons but with chickens. I hope you enjoy this
-                    Frankenstein of a game!
-                  </span>
+                  This led me to create a turn-based game, reminiscent of the
+                  Pokemon series, where players engage in battles not with
+                  Pokémons but with chickens. I hope you enjoy this Frankenstein
+                  of a game!
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
@@ -260,17 +252,13 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600">
+                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600  line-clamp-3 sm:line-clamp-none">
                   I put together this landing page for Chirp using HTML and CSS,
                   mainly to practice laying out content and working with media
-                  queries.
-                  <span className="hidden sm:inline">
-                    {" "}
-                    What's interesting about this project is that it was the
-                    first time I focused on mobile view styling. I quickly
-                    realized that starting with mobile design made easier for me
-                    to make the website more responsive and user-friendly.
-                  </span>
+                  queries. What's interesting about this project is that it was
+                  the first time I focused on mobile view styling. I quickly
+                  realized that starting with mobile design made easier for me
+                  to make the website more responsive and user-friendly.
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
@@ -329,15 +317,12 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600">
+                <p className="text-sm sm:text-base md:text-lg xl:text-xl text-neutral-600 line-clamp-3 sm:line-clamp-none">
                   Using what I've learned so far, I expressed myself creatively
-                  in making my latest portfolio.
-                  <span className="hidden sm:inline">
-                    {" "}
-                    This website serves as a canvas for me to express my
-                    abilities and showcase my most recent projects, providing
-                    visitors with a comprehensive look at what I have to offer.
-                  </span>
+                  in making my latest portfolio. This website serves as a canvas
+                  for me to express my abilities and showcase my most recent
+                  projects, providing visitors with a comprehensive look at what
+                  I have to offer.
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
