@@ -326,11 +326,6 @@ const Projects = () => {
                     src={Express}
                     alt="CSS icon"
                   />
-                  <img
-                    className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 object-contain"
-                    src={MongoDB}
-                    alt="CSS icon"
-                  />
                 </div>
               </div>
               <div>
@@ -346,14 +341,6 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex text-sm gap-2 ">
-                <a
-                  href="https://ajramirez-portfolio.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="border-1 px-2 bg-neutral-800 rounded text-neutral-200 border-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition ease-out duration-500"
-                >
-                  live demo
-                </a>
                 <a
                   href="https://github.com/ajramirezdev/portfolio"
                   target="_blank"

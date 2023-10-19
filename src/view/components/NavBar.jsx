@@ -56,44 +56,44 @@ const NavBar = () => {
             className="hover:text-neutral-400 transition ease-out duration-500"
             href="#about"
           >
-            about
+            About
           </a>
           <a
             className="hover:text-neutral-400 transition ease-out duration-500"
             href="#projects"
           >
-            projects
+            Projects
           </a>
           <a
             className="hover:text-neutral-400 transition ease-out duration-500"
             href="#contact"
           >
-            contact
+            Contact
           </a>
         </div>
       </div>
       {drop ? (
         <div className="flex flex-col items-end px-4 absolute right-0 sm:hidden font-medium z-10 transform transition-all duration-300">
           <a className="p-1" href="#about">
-            about
+            About
           </a>
           <a className="p-1" href="#projects">
-            projects
+            Projects
           </a>
           <a className="p-1" href="#contact">
-            contact
+            Contact
           </a>
         </div>
       ) : (
         <div className="flex flex-col items-end px-4 absolute right-0 sm:hidden font-medium -z-10 transform transition-all -translate-y-16 opacity-0 duration-300">
           <a className="p-1" href="#about">
-            about
+            About
           </a>
           <a className="p-1" href="#projects">
-            projects
+            Projects
           </a>
           <a className="p-1" href="#contact">
-            contact
+            Contact
           </a>
         </div>
       )}

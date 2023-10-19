@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -7,6 +8,17 @@ import Projects from "../components/Projects";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Portfolio = () => {
+  useEffect(() => {
+    const request = async () => {
+      const response = await fetch(
+        "https://portfolio-be-f2w2.onrender.com/email"
+      );
+      const data = await response.body;
+      console.log(data);
+    };
+    request();
+  }, []);
+
   return (
     <>
       <div className="h-screen">
